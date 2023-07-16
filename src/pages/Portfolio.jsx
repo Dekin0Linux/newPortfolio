@@ -1,6 +1,10 @@
 import React from 'react'
 import myryd from '../assets/images/myryde.jpg'
 import cineman from '../assets/images/cineman.jpg'
+import store from '../assets/images/store.jpg'
+import weather from '../assets/images/weatherapp.jpg'
+import texttospeech from '../assets/images/texttospeech.jpg'
+import instagram from '../assets/images/instagramClone.jpg'
 
 function Projects({title,img,description,url}){
   return(
@@ -32,7 +36,13 @@ function Portfolio() {
 
           <Projects title={'Cineman'} url={'https://cineman-app.netlify.app/'} img={cineman} description={'Cineman is an exhilarating streaming platform that delivers thrills and chills right to your screen. With its vast collection of gripping thrillers, users can immerse themselves in suspenseful narratives, heart-pounding action, and mind-bending plot twists. Cineman offers a captivating streaming experience that will keep you on the edge of your seat, ready for the next thrilling adventure.'}/>
 
-          <Projects title={'Myryd'} url={'https://cinemain-app.netlify.com'} img={myryd} description={'Cineman is an exhilarating streaming platform that delivers thrills and chills right to your screen. With its vast collection of gripping thrillers, users can immerse themselves in suspenseful narratives, heart-pounding action, and mind-bending plot twists. Cineman offers a captivating streaming experience that will keep you on the edge of your seat, ready for the next thrilling adventure.'}/>
+          <Projects title={'Ecommerce App'} url={'https://faisal-ecommerce.netlify.app/'} img={store} description={'A simulated eCommerce website powered by a fake API. It provides an interactive experience where users can explore product categories, view product details, add items to their shopping carts, and proceed through a simulated checkout process. This project serves as a valuable demonstration of eCommerce functionalities, offering insights into product browsing, selection, and cart management for developers and enthusiasts interested in building eCommerce platforms.'}/>
+
+          <Projects title={'Weather App'} url={'https://faisal-weatherapp.netlify.app/'} img={weather} description={"A practical and user-friendly weather application that provides up-to-date weather information. It allows users to search for specific locations and instantly obtain detailed weather forecasts, including temperature, humidity, wind speed, and conditions. The app displays visually appealing icons and backgrounds to represent different weather conditions, enhancing the overall user experience. With its intuitive design and accurate weather data, this app proves to be a valuable tool for users seeking reliable weather information on the go."}/>
+
+          <Projects title={'Text To Speech'} url={'https://faisal-texttospeech.vercel.app/'} img={texttospeech} description={"The text-to-speech app I created is a straightforward and efficient tool that transforms written text into clear and audible speech. With a minimalist design, the app offers essential functionalities such as play, pause, clear, and continue. Users can easily input text and play it back as natural-sounding audio. Whether for educational purposes, accessibility needs, or simply for convenience, this app provides a reliable solution for converting text into spoken content in a hassle-free manner."}/>
+
+          <Projects title={'Instagram Clone'} url={'https://www.linkedin.com/feed/update/urn:li:activity:7040774113950367744/?originTrackingId=%2FeRCkKO3Rd2yWEFZlsNTag%3D%3D'} img={instagram} description={"A practical and user-friendly weather application that provides up-to-date weather information. It allows users to search for specific locations and instantly obtain detailed weather forecasts, including temperature, humidity, wind speed, and conditions. The app displays visually appealing icons and backgrounds to represent different weather conditions, enhancing the overall user experience. With its intuitive design and accurate weather data, this app proves to be a valuable tool for users seeking reliable weather information on the go."}/>
 
         </div>
       </div>

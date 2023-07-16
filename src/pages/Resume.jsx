@@ -16,6 +16,7 @@ import git from '../assets/images/git.png'
 import photoshop from '../assets/images/photoshop.png'
 import vscode from '../assets/images/visual-studio.png'
 import mysql from '../assets/images/mysql.png'
+import linux from '../assets/images/linux.png'
 
 
 
@@ -62,7 +63,7 @@ function Resume() {
         {/* end of top side */}
 
         {/* next box */}
-        <div className="flex flex-wrap gap-3">
+        <div className="flex flex-wrap md:gap-10">
 
           <div className='md:flex-1'>
             <p className='text-2xl font-semibold pb-4 border-b-4 my-4 border-white text-center md:text-start'>Skills</p>
@@ -88,6 +89,7 @@ function Resume() {
               <img src={git} alt="icond here" width={'80px'} className=''/>
               <img src={photoshop} alt="icond here" width={'80px'} className=''/>
               <img src={vscode} alt="icond here" width={'80px'} className=''/>
+              <img src={linux} alt="icond here" width={'80px'} className=''/>
             </div>
           </div>
         </div>

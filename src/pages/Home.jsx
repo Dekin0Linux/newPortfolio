@@ -23,10 +23,10 @@ function Home() {
       <About/>
       <Resume/>
       <Portfolio/>
-      <Reviews/>
+      {/* <Reviews/>
       <Blogs/>
       <Who/>
-      <Contact/>
+      <Contact/> */}
       <Footer/>
 
 

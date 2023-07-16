@@ -7,11 +7,11 @@ function Navbar() {
     <div className='md:pb-5 sticky top-0 w-full z-50 bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-70
      '>
         <div className='flex flex-wrap justify-between p-5'>
-            <div className='inline-flex gap-5'>
+            <div className='flex flex-wrap gap-5'>
                 <p className='inline-flex items-center gap-2  text-white'><i><FiMail/></i>phaisalsalif@ggmail.com</p>
                 <p className='inline-flex items-center gap-2  text-white'> <i><FiPhoneCall/></i> +233 55 862 8473</p>
             </div>
-            <div className='inline-flex md:gap-5 items-center text-white'>
+            <div className='flex mt-5 justify-start md:mt-0 gap-20 md:gap-5 text-white'>
                 <a href="" target='_blank'><FaGithub/></a>
                 <a href="" target='_blank'><FaLinkedinIn/></a>
                 <a href="" target='_blank'><FaInstagram/></a>

@@ -11,3 +11,9 @@ background: radial-gradient(circle farthest-side at 74% 14%, rgba(46,121,149,1) 
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.footerImg{
+    background-image: url('./assets/images/image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
