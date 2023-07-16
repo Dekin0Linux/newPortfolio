@@ -4,7 +4,7 @@ import 'animate.css';
 
 function App() {
   return (
-    <div className='bg-[#050F25] hero-bg'>
+    <div className='bg-[#050F25]'>
       <Home/>
     </div>
   )

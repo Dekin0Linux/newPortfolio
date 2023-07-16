@@ -4,13 +4,14 @@ import {FaGithub,FaLinkedinIn,FaInstagram,FaWhatsapp} from 'react-icons/fa'
 
 function Navbar() {
   return (
-    <div className='container mx-auto pb-5 sticky top-0 z-50'>
-        <div className='flex justify-between py-5'>
+    <div className='md:pb-5 sticky top-0 w-full z-50 bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-70
+     '>
+        <div className='flex flex-wrap justify-between p-5'>
             <div className='inline-flex gap-5'>
-                <p className='inline-flex items-center gap-2 text-xl text-yellow-400'><i><FiMail/></i>phaisalsalif@ggmail.com</p>
-                <p className='inline-flex items-center gap-2 text-xl text-yellow-400'> <i><FiPhoneCall/></i> +233 55 862 8473</p>
+                <p className='inline-flex items-center gap-2  text-white'><i><FiMail/></i>phaisalsalif@ggmail.com</p>
+                <p className='inline-flex items-center gap-2  text-white'> <i><FiPhoneCall/></i> +233 55 862 8473</p>
             </div>
-            <div className='inline-flex gap-5 text-2xl items-center'>
+            <div className='inline-flex md:gap-5 items-center text-white'>
                 <a href="" target='_blank'><FaGithub/></a>
                 <a href="" target='_blank'><FaLinkedinIn/></a>
                 <a href="" target='_blank'><FaInstagram/></a>
@@ -18,11 +19,11 @@ function Navbar() {
             </div>
         </div>
 
-        <nav className=' bg-white rounded-lg flex justify-between items-center '>
-            <div className='p-5'>
-                <h1 className='text-3xl font-bold text-black' >Dekin <span className='text-pink-400'>Dev</span></h1>
+        <nav className=' flex flex-wrap justify-between items-center'>
+            <div className='md:p-5 px-2'>
+                <h1 className='md:text-3xl font-bold text-white' >Dekin<span className='text-pink-400'>Dev</span></h1>
             </div>
-            <div className='text-black flex gap-10 text-xl font-semibold p-5'>
+            <div className='text-white flex md:gap-10 gap-5 md:text-xl font-semibold md:p-5 p-2'>
                 <a href="">Home</a>
                 <a href="">About Me</a>
                 <a href="">Resume</a>

@@ -14,8 +14,11 @@ import Footer from './Footer'
 function Home() {
   return (
     <div className=' text-white'>
-      <Navbar/>
-      <Hero/>
+      
+      <div className='hero-img '>
+        <Navbar/>
+        <Hero/>
+      </div>
       {/* <Links/> */}
       <About/>
       <Resume/>

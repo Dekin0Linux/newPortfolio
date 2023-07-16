@@ -2,7 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-.hero-bg{
+/* .hero-bg{
     background: rgb(46,121,149);
-background: radial-gradient(circle, rgba(46,121,149,1) 0%, rgba(5,15,37,1) 100%);
+background: radial-gradient(circle farthest-side at 74% 14%, rgba(46,121,149,1) 0%, rgba(5,15,37,1) 85%);
+} */
+.hero-img{
+    background-image: url('./assets//images//Hero-4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
