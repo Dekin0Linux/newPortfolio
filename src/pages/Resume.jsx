@@ -1,6 +1,24 @@
 import React from 'react'
 import profile from '../assets/images/pp.png'
-import { Images } from '../assets/images/images'
+
+import html from '../assets/images/html.png'
+import css from '../assets/images/css-3.png'
+import js from '../assets/images/js.png'
+import react from '../assets/images/atom.png'
+import bs from '../assets/images/bootstrap.png'
+import php from '../assets/images/php.png'
+import python from '../assets/images/python.png'
+import node from '../assets/images/node-js.png'
+import tailwind from '../assets/images/tailwind.png'
+import mongodb from '../assets/images/mongodb.png'
+import github from '../assets/images/github.png'
+import git from '../assets/images/git.png'
+import photoshop from '../assets/images/photoshop.png'
+import vscode from '../assets/images/visual-studio.png'
+import mysql from '../assets/images/mysql.png'
+
+
+
 
 
 const Experience=({position,company,date})=>{
@@ -18,7 +36,7 @@ const Experience=({position,company,date})=>{
 function Resume() {
   return (
     <div className='bg-[#050F25] py-10'>
-      <div className="container mx-auto border-yellow-400 border-2 p-10 rounded-xl bg-[#091530]">
+      <div className="container mx-auto border-yellow-400 border-2 md:p-10 p-5 rounded-xl bg-[#091530]">
         <p className='font-bold text-4xl py-5'>Resume</p>
         {/* top side */}
         <div className='flex flex-wrap md:py-20'>
@@ -45,17 +63,31 @@ function Resume() {
 
         {/* next box */}
         <div className="flex flex-wrap gap-3">
+
           <div className='md:flex-1'>
-            <p className='text-2xl font-semibold pb-4 border-b-4 border-white'>Skills</p>
-            <div>
-              <img src={Images.html} alt="icond here" />
+            <p className='text-2xl font-semibold pb-4 border-b-4 my-4 border-white text-center md:text-start'>Skills</p>
+            <div className='flex flex-wrap md:gap-10 gap-5'>
+              <img src={html} alt="icond here" width={'80px'}/>
+              <img src={css} alt="icond here" width={'80px'}/>
+              <img src={js} alt="icond here" width={'80px'}/>
+              <img src={react} alt="icond here" width={'80px'}/>
+              <img src={bs} alt="icond here" width={'80px'}/>
+              <img src={php} alt="icond here" width={'80px'}/>
+              <img src={python} alt="icond here" width={'80px'}/>
+              <img src={node} alt="icond here" width={'80px'}/>
+              <img src={tailwind} alt="icond here" width={'80px'}/>
+              <img src={github} alt="icond here" width={'80px'} />
+              <img src={mysql} alt="icond here" width={'80px'} />
+              <img src={mongodb} alt="icond here" width={'80px'} />
             </div>
           </div>
 
           <div className='md:flex-1'>
-            <p className='text-2xl font-semibold pb-4 border-b-4 border-white'>Tools I Use!</p>
-            <div className='md:flex flex-wrap gap-2'>
-                <img src={Images.html} alt="icon here" />
+            <p className='text-2xl font-semibold pb-4 border-b-4 border-white my-4 text-center md:text-start'>Tools I Use!</p>
+            <div className='flex flex-wrap md:gap-10 gap-3'>
+              <img src={git} alt="icond here" width={'80px'} className=''/>
+              <img src={photoshop} alt="icond here" width={'80px'} className=''/>
+              <img src={vscode} alt="icond here" width={'80px'} className=''/>
             </div>
           </div>
         </div>
