@@ -25,7 +25,7 @@ function About() {
             I am dedicated to perfecting my craft by learning from more seasoned developers, remaining humble, and continuously making strides to learn all that I can about development. I believe that my understanding of problem-solving is also a skill that I have and will continue to contribute to my overall success as developer.
             </p>
             <div>
-              <a href="" download className='bg-yellow-400 px-10 py-5 text-black font-bold md:text-xl rounded-md inline-flex items-center gap-5 hover:shadow-2xl'><FaDownload/>Download CV</a>
+              <a href="../assets/CV-2023.pdf" download className='bg-yellow-400 px-10 py-5 text-black font-bold md:text-xl rounded-md inline-flex items-center gap-5 hover:shadow-2xl'><FaDownload/>Download CV</a>
             </div>
           </div>
 
