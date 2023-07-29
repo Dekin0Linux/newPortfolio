@@ -8,8 +8,8 @@ import instagram from '../assets/images/instagramClone.jpg'
 
 function Projects({title,img,description,url}){
   return(
-    <div className='bg-white p-3 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 shadow-lg'>
-      <div className='object-contain overflow-hidden rounded-lg shadow'>
+    <div className='bg-white p-3 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 shadow-lg' >
+      <div className='object-contain overflow-hidden rounded-lg shadow' data-aos="fade-bottom" data-aos-duration="2000">
         <a href={url} target='_blank'>
           <img src={img} alt="" />
         </a>
@@ -42,7 +42,7 @@ function Portfolio() {
 
           <Projects title={'Text To Speech'} url={'https://faisal-texttospeech.vercel.app/'} img={texttospeech} description={"The text-to-speech app I created is a straightforward and efficient tool that transforms written text into clear and audible speech. With a minimalist design, the app offers essential functionalities such as play, pause, clear, and continue. Users can easily input text and play it back as natural-sounding audio. Whether for educational purposes, accessibility needs, or simply for convenience, this app provides a reliable solution for converting text into spoken content in a hassle-free manner."}/>
 
-          <Projects title={'Instagram Clone'} url={'https://www.linkedin.com/feed/update/urn:li:activity:7040774113950367744/?originTrackingId=%2FeRCkKO3Rd2yWEFZlsNTag%3D%3D'} img={instagram} description={"A practical and user-friendly weather application that provides up-to-date weather information. It allows users to search for specific locations and instantly obtain detailed weather forecasts, including temperature, humidity, wind speed, and conditions. The app displays visually appealing icons and backgrounds to represent different weather conditions, enhancing the overall user experience. With its intuitive design and accurate weather data, this app proves to be a valuable tool for users seeking reliable weather information on the go."}/>
+          <Projects title={'Instagram Clone'} url={'https://www.linkedin.com/feed/update/urn:li:activity:7040774113950367744/?originTrackingId=%2FeRCkKO3Rd2yWEFZlsNTag%3D%3D'} img={instagram} description={"This is a simple Instagram UI clone showcases my ability to create mobile applications using React Native. It does not include any backend functionality or data interactions, and it is intended purely for demonstration purposes."}/>
 
         </div>
       </div>

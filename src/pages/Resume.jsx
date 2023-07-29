@@ -50,7 +50,7 @@ function Resume() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis fuga repellat illum aliquam beatae praesentium dolor quod modi nam enim doloremque obcaecati, dicta atque quibusdam eaque ipsum! Expedita, consectetur perspiciatis!
             </p>
           </div>
-          <div className='md:flex-1'>
+          <div className='md:flex-1' >
             <img src={profile} alt="myImage" className=''/>
           </div>
 

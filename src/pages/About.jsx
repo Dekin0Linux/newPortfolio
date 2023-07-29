@@ -17,8 +17,8 @@ function About() {
             <img src="https://cdn3d.iconscout.com/3d/premium/thumb/professional-website-developer-6343298-5242458.png" alt="" className='drop-shadow-2xl' width={'100%'}/>
           </div>
 
-          <div className='md:flex-1 text-center md:text-start p-5 md:p-0' data-aos="fade-left" data-aos-duration="4000">
-            <p className='text-4xl font-semibold pb-5 text-yellow-400 '>About 3 Years Web & Mobile App Development Experience.</p>
+          <div className='md:flex-1 md:text-start p-5 md:p-0' data-aos="fade-left" data-aos-duration="4000">
+            <p className='text-4xl text-center md:text-start font-semibold pb-5 text-yellow-400 '>About 3 Years Web & Mobile App Development Experience.</p>
 
             <p className='text-xl md:leading-10 italic '>I am a well crafted Web & Mobile App Developer. I have good knowledge in front-end and back-end development as well as Mobile developement with React Native. My objective is simply to be the best engineer that I can be and to contribute to the technology industry all that I know and can do.</p>
             <p className='text-xl md:leading-10 italic pb-10'>
