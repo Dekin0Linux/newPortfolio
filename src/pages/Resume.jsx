@@ -67,7 +67,7 @@ function Resume() {
 
           <div className='md:flex-1'>
             <p className='text-2xl font-semibold pb-4 border-b-4 my-4 border-white text-center md:text-start'>Skills</p>
-            <div className='flex flex-wrap md:gap-10 gap-5'>
+            <div className='flex justify-between flex-wrap md:gap-10 gap-5'>
               <img src={html} alt="icond here" width={'80px'}/>
               <img src={css} alt="icond here" width={'80px'}/>
               <img src={js} alt="icond here" width={'80px'}/>
@@ -85,7 +85,7 @@ function Resume() {
 
           <div className='md:flex-1'>
             <p className='text-2xl font-semibold pb-4 border-b-4 border-white my-4 text-center md:text-start'>Tools I Use!</p>
-            <div className='flex flex-wrap md:gap-10 gap-3'>
+            <div className='flex justify-between flex-wrap md:gap-10 gap-3'>
               <img src={git} alt="icond here" width={'80px'} className=''/>
               <img src={photoshop} alt="icond here" width={'80px'} className=''/>
               <img src={vscode} alt="icond here" width={'80px'} className=''/>
