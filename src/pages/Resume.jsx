@@ -24,12 +24,12 @@ import linux from '../assets/images/linux.png'
 
 const Experience=({position,company,date})=>{
   return(
-    <div className='flex justify-between border-b-4 py-5'>
+    <div className='flex justify-between border-b-4 py-5 items-start'>
       <div >
         <p className='font-semibold text-2xl'>{position}</p>
         <p className='text-xl'>{company}</p>
       </div>
-      <button className='bg-yellow-400 md:px-4 md:py-1 p-2 rounded-lg text-black font-semibold'>{date}</button>
+      <span className='bg-yellow-400 md:px-4 py-2  rounded-lg text-black font-semibold'>{date}</span>
     </div>
   )
 }
@@ -46,8 +46,11 @@ function Resume() {
               <p className='font-semibold text-4xl'>Faisal Salifu</p>
               <small className='text-xl '>Web Developer</small>
             </div>
-            <p className='text-xl py-5 text-yellow-400'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis fuga repellat illum aliquam beatae praesentium dolor quod modi nam enim doloremque obcaecati, dicta atque quibusdam eaque ipsum! Expedita, consectetur perspiciatis!
+            <p className='text-md py-5 '>
+            I am a developer proficient with 3 years of experience in full-stack development, with
+            a strong focus on problem-solving. <br /><br />
+            My objective is simply to be good engineer that I can be and to contribute to the
+            technology industry with all that I know and can do.
             </p>
           </div>
           <div className='md:flex-1' >

@@ -5,6 +5,7 @@ import store from '../assets/images/store.jpg'
 import weather from '../assets/images/weatherapp.jpg'
 import texttospeech from '../assets/images/texttospeech.jpg'
 import instagram from '../assets/images/instagramClone.jpg'
+import handyM from '../assets/images/handyM.jpg'
 
 function Projects({title,img,description,url}){
   return(
@@ -40,7 +41,7 @@ function Portfolio() {
 
           <Projects title={'Weather App'} url={'https://faisal-weatherapp.netlify.app/'} img={weather} description={"A practical and user-friendly weather application that provides up-to-date weather information. It allows users to search for specific locations and instantly obtain detailed weather forecasts, including temperature, humidity, wind speed, and conditions. The app displays visually appealing icons and backgrounds to represent different weather conditions, enhancing the overall user experience. With its intuitive design and accurate weather data, this app proves to be a valuable tool for users seeking reliable weather information on the go."}/>
 
-          <Projects title={'Text To Speech'} url={'https://faisal-texttospeech.vercel.app/'} img={texttospeech} description={"The text-to-speech app I created is a straightforward and efficient tool that transforms written text into clear and audible speech. With a minimalist design, the app offers essential functionalities such as play, pause, clear, and continue. Users can easily input text and play it back as natural-sounding audio. Whether for educational purposes, accessibility needs, or simply for convenience, this app provides a reliable solution for converting text into spoken content in a hassle-free manner."}/>
+          <Projects title={'HandyMan'} url={'https://hh-ocmv.onrender.com/'} img={handyM} description={"The HandyHelpWeb App is your one-stop solution for all household repair and maintenance needs. Whether you need a leaky faucet fixed, a room painted, or a new shelf installed, our app connects you with skilled and reliable local handymen. With a user-friendly interface, you can quickly describe your task, set a budget, and choose from a list of experienced handymen available in your area. You can read reviews, view past projects, and get instant quotes, making it effortless to find the perfect handyman for your job. Say goodbye to home repair headaches and hello to hassle-free, expert service, all at your fingertips with the Handyman Web App."}/>
 
           <Projects title={'Instagram Clone'} url={'https://www.linkedin.com/feed/update/urn:li:activity:7040774113950367744/?originTrackingId=%2FeRCkKO3Rd2yWEFZlsNTag%3D%3D'} img={instagram} description={"This is a simple Instagram UI clone showcases my ability to create mobile applications using React Native. It does not include any backend functionality or data interactions, and it is intended purely for demonstration purposes."}/>
 
