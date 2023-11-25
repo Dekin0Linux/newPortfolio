@@ -3,6 +3,8 @@ import Home from './pages/Home'
 import 'animate.css';
 import 'fontsource-lato';
 
+// import './styles.css';
+
 
 function App() {
   return (

@@ -58,7 +58,8 @@ function Resume() {
           </div>
 
           <div className='flex-1'>
-            <Experience position={'Frontend Dev.'} company={'Nacasky Company'} date={'Current'}/>
+            <Experience position={'Frontend Dev.'} company={'Eganow'} date={'2023'}/>
+            <Experience position={'Frontend Dev.'} company={'Nacasky Company'} date={'2023'}/>
             <Experience position={'Fullstack Dev.'} company={'Samak Tachnology'} date={'2021-2022'}/>
             <Experience position={'Frontend Dev'} company={'Viqx GH'} date={'2019-2020'}/>
           </div>
