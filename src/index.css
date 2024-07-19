@@ -11,6 +11,13 @@
     background: rgb(46,121,149);
 background: radial-gradient(circle farthest-side at 74% 14%, rgba(46,121,149,1) 0%, rgba(5,15,37,1) 85%);
 } */
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+  
 .hero-img{
     background-image: url('./assets//images//Hero-4.jpg');
     background-size: cover;

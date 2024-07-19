@@ -8,7 +8,7 @@ AOS.init();
 
 function About() {
   return (
-    <div className='bg-[#050F25]'>
+    <div className='bg-[#050F25]' id='about'>
       <div className="container mx-auto">
         <h4 className='font-bold text-6xl text-center py-3'>About Me</h4>
         <div className='flex flex-wrap items-center py-2' >

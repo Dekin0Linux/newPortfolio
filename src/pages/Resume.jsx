@@ -36,7 +36,7 @@ const Experience=({position,company,date})=>{
 
 function Resume() {
   return (
-    <div className='bg-[#050F25] py-10  '>
+    <div className='bg-[#050F25] py-10  ' id='resume'>
       <div className="container mx-auto border-yellow-400 border-2 md:p-10 p-5 rounded-xl bg-[#091530] hero-img">
         <p className='font-bold text-4xl py-5'>Resume</p>
         {/* top side */}

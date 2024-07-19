@@ -25,9 +25,9 @@ function Navbar() {
                 <h1 className='md:text-3xl font-bold text-white' >Dekin<span className='text-pink-400'>Dev</span></h1>
             </div>
             <div className='text-white flex justify-between md:gap-10 gap-4 md:text-xl md:font-semibold md:p-5 p-2 w-full md:w-auto'>
-                <a href="" className='hover:text-sky-300'>Home</a>
-                <a href="" className='hover:text-sky-300'>About Me</a>
-                <a href="" className='hover:text-sky-300'>Resume</a>
+                <a href="/" className='hover:text-sky-300'>Home</a>
+                <a href="#about" className='hover:text-sky-300'>About Me</a>
+                <a href="#resume" className='hover:text-sky-300'>Resume</a>
                 <a href="" className='hover:text-sky-300'>Portfolio</a>
                 <a href="" className='hover:text-sky-300'>Contact</a>
             </div>

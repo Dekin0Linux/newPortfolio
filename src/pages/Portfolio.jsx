@@ -1,8 +1,8 @@
 import React from "react";
 import myryd from "../assets/images/myryde.jpg";
 import cineman from "../assets/images/cineman.jpg";
-import store from "../assets/images/store.jpg";
-import weather from "../assets/images/weatherapp.jpg";
+import store from "../assets/images/efront.png";
+import weather from "../assets/images/eshop.png";
 import texttospeech from "../assets/images/texttospeech.jpg";
 import instagram from "../assets/images/instagramClone.jpg";
 import handyM from "../assets/images/handyM.jpg";
@@ -53,7 +53,7 @@ function Portfolio() {
           options={{
             gap: "1rem",
             drag: "free",
-            perPage: 4,
+            // perPage: 2,
             type: "loop",
             pagination: false,
             lazyLoad: "nearby",
@@ -98,21 +98,21 @@ function Portfolio() {
           </SwiperSlide>
           <SwiperSlide>
             <Projects
-              title={"Ecommerce App"}
-              url={"https://faisal-ecommerce.netlify.app/"}
+              title={"eShop"}
+              url={"https://e-shop-wl53.vercel.app/"}
               img={store}
               description={
-                "A simulated eCommerce website powered by a fake API. It provides an interactive experience where users can explore product categories, view product details, add items to their shopping carts, and proceed through a simulated checkout process. This project serves as a valuable demonstration of eCommerce functionalities, offering insights into product browsing, selection, and cart management for developers and enthusiasts interested in building eCommerce platforms."
+                "A simulated full stack NodeJS eCommerce website. It provides an interactive experience where users can explore product categories, view product details, add items to their shopping carts, and proceed through a simulated checkout process. This project serves as a valuable demonstration of eCommerce functionalities, offering insights into product browsing, selection, and cart management for developers and enthusiasts interested in building eCommerce platforms."
               }
             />
           </SwiperSlide>
           <SwiperSlide>
             <Projects
-              title={"Weather App"}
-              url={"https://faisal-weatherapp.netlify.app/"}
+              title={"eShop Admin "}
+              url={"https://e-shop-1ri6.vercel.app/"}
               img={weather}
               description={
-                "A practical and user-friendly weather application that provides up-to-date weather information. It allows users to search for specific locations and instantly obtain detailed weather forecasts, including temperature, humidity, wind speed, and conditions. The app displays visually appealing icons and backgrounds to represent different weather conditions, enhancing the overall user experience. With its intuitive design and accurate weather data, this app proves to be a valuable tool for users seeking reliable weather information on the go."
+                "A simulated full stack eShop Admin Dashbaord. Where shop owner can manage all activites such as incoming order, order status , analytic reports and many more "
               }
             />
           </SwiperSlide>
