@@ -47,9 +47,9 @@ function Resume() {
               <small className='text-xl '>Web Developer</small>
             </div>
             <p className='text-md py-5 '>
-            I am a developer proficient with 3 years of experience in full-stack development, with
+            I am a software developer with experience in full-stack development, with
             a strong focus on problem-solving. <br /><br />
-            My objective is simply to be good engineer that I can be and to contribute to the
+            My objective is simply to be a good engineer that I can be and to contribute to the
             technology industry with all that I know and can do.
             </p>
           </div>
