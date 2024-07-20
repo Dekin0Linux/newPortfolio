@@ -4,7 +4,7 @@ import {FaGithub,FaLinkedinIn,FaInstagram,FaWhatsapp} from 'react-icons/fa'
 
 function Navbar() {
   return (
-    <div className='md:pb-5 sticky top-0 w-full z-50 bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-70
+    <div className='md:pb-5 fixed top-0 w-full z-50 bg-clip-padding backdrop-filter backdrop-blur-2xl bg-opacity-70
      '>
         <div className='flex flex-wrap justify-between p-5'>
             <div className='md:flex flex-wrap gap-5 hidden'>
@@ -28,8 +28,8 @@ function Navbar() {
                 <a href="/" className='hover:text-sky-300'>Home</a>
                 <a href="#about" className='hover:text-sky-300'>About Me</a>
                 <a href="#resume" className='hover:text-sky-300'>Resume</a>
-                <a href="" className='hover:text-sky-300'>Portfolio</a>
-                <a href="" className='hover:text-sky-300'>Contact</a>
+                <a href="#projects" className='hover:text-sky-300'>Portfolio</a>
+                <a href="#footer" className='hover:text-sky-300'>Contact</a>
             </div>
         </nav>
     </div>

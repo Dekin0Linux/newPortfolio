@@ -3,6 +3,7 @@ import myryd from "../assets/images/myryde.jpg";
 import cineman from "../assets/images/cineman.jpg";
 import store from "../assets/images/efront.png";
 import weather from "../assets/images/eshop.png";
+import questu from "../assets/images/quest.png";
 import texttospeech from "../assets/images/texttospeech.jpg";
 import instagram from "../assets/images/instagramClone.jpg";
 import handyM from "../assets/images/handyM.jpg";
@@ -39,7 +40,7 @@ function Projects({ title, img, description, url }) {
 
 function Portfolio() {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto py-20" id="projects">
       <h3 className="font-bold md:text-6xl text-3xl text-center py-3 leading-normal">
         Showcasing Few Of My Projects{" "}
       </h3>
@@ -113,6 +114,16 @@ function Portfolio() {
               img={weather}
               description={
                 "A simulated full stack eShop Admin Dashbaord. Where shop owner can manage all activites such as incoming order, order status , analytic reports and many more "
+              }
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Projects
+              title={"Questu"}
+              url={"https://questu.org"}
+              img={questu}
+              description={
+                "An registration platform for Ghanaian teachers who want to learn IT skill in other to upgrade their profession. "
               }
             />
           </SwiperSlide>
