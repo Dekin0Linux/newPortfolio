@@ -45,7 +45,69 @@ function Portfolio() {
         Showcasing Few Of My Projects{" "}
       </h3>
       <div className="my-10 px-3 md:px-0">
-        <Swiper
+        <div className="grid xl:grid-cols-4 grid-cols-1 gap-3">
+            <Projects
+              title={"eShop Admin "}
+              url={"https://e-shop-1ri6.vercel.app/"}
+              img={weather}
+              description={
+                "A simulated full stack eShop Admin Dashbaord. Where shop owner can manage all activites such as incoming order, order status , analytic reports and many more "
+              }
+            />
+          <Projects
+            title={"Myryd"}
+            url={"https://myryd.onrender.com"}
+            img={myryd}
+            description={
+              "MyRyd is an innovative bus ticket project designed to revolutionize the way we travel by bus. With its user-friendly mobile application, MyRyd aims to provide a seamless and convenient ticketing experience for passengers. By leveraging advanced technologies such as real-time tracking, e-ticketing, and secure payment options."
+            }
+          />
+
+          <Projects
+            title={"Cineman"}
+            url={"https://cineman-app.netlify.app/"}
+            img={cineman}
+            description={
+              "Cineman is an exhilarating streaming platform that delivers thrills and chills right to your screen. With its vast collection of gripping thrillers, users can immerse themselves in suspenseful narratives, heart-pounding action, and mind-bending plot twists. Cineman offers a captivating streaming experience that will keep you on the edge of your seat, ready for the next thrilling adventure."
+            }
+          />
+
+          <Projects
+            title={"HandyMan"}
+            url={"https://hh-ocmv.onrender.com/"}
+            img={handyM}
+            description={
+              "The HandyHelpWeb App is your one-stop solution for all household repair and maintenance needs. Whether you need a leaky faucet fixed, a room painted, or a new shelf installed, our app connects you with skilled and reliable local handymen. "
+            }
+          />
+          <Projects
+              title={"eShop"}
+              url={"https://e-shop-wl53.vercel.app/"}
+              img={store}
+              description={
+                "A simulated full stack NodeJS eCommerce website. It provides an interactive experience where users can explore product categories, view product details, add items to their shopping carts, and proceed through a simulated checkout process. "
+              }
+            />
+            <Projects
+              title={"Questu"}
+              url={"https://questu.org"}
+              img={questu}
+              description={
+                "An registration platform for Ghanaian teachers who want to learn IT skill in other to upgrade their profession. "
+              }
+            />
+            <Projects
+              title={"Instagram Clone"}
+              url={
+                "https://www.linkedin.com/feed/update/urn:li:activity:7040774113950367744/?originTrackingId=%2FeRCkKO3Rd2yWEFZlsNTag%3D%3D"
+              }
+              img={instagram}
+              description={
+                "This is a simple Instagram UI clone showcases my ability to create mobile applications using React Native. It does not include any backend functionality or data interactions, and it is intended purely for demonstration purposes."
+              }
+            />
+        </div>
+        {/* <Swiper
           autoplay={{
             delay: 2000,
             disableOnInteraction: true,
@@ -54,7 +116,7 @@ function Portfolio() {
           options={{
             gap: "1rem",
             drag: "free",
-            // perPage: 2,
+            perPage: 3,
             type: "loop",
             pagination: false,
             lazyLoad: "nearby",
@@ -139,7 +201,7 @@ function Portfolio() {
               }
             />
           </SwiperSlide>
-        </Swiper>
+        </Swiper> */}
       </div>
     </div>
   );

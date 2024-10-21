@@ -17,7 +17,7 @@ function Footer() {
 
 
           </div>
-            <div className='flex mt-2 justify-center md:mt-0 md:gap-5 w-full md:w-auto p-2 text-white text-2xl'>
+            <div className='flex mt-2 justify-center md:mt-0 md:gap-5 gap-2 w-full md:w-auto p-2 text-white text-2xl'>
                 <a href="https://github.com/Dekin0Linux" className='bg-white text-black p-3 rounded-lg' target='_blank'><FaGithub/></a>
                 <a href="https://www.linkedin.com/in/faisal-salif-89b02379/" className='bg-white text-blue-600 p-3 rounded-lg' target='_blank'><FaLinkedinIn/></a>
                 <a href="https://instagram.com/dekingraphix" className='bg-white text-pink-700 p-3 rounded-lg' target='_blank'><FaInstagram/></a>

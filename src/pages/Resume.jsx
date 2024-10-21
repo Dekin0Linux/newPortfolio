@@ -29,7 +29,7 @@ const Experience=({position,company,date})=>{
         <p className='font-semibold text-2xl'>{position}</p>
         <p className='text-xl'>{company}</p>
       </div>
-      <span className='bg-yellow-400 md:px-4 py-2  rounded-lg text-black font-semibold'>{date}</span>
+      <span className='bg-yellow-400 md:px-4 px-2 md:py-2  rounded text-black font-semibold'>{date}</span>
     </div>
   )
 }
@@ -37,7 +37,7 @@ const Experience=({position,company,date})=>{
 function Resume() {
   return (
     <div className='bg-[#050F25] py-10  ' id='resume'>
-      <div className="container mx-auto border-yellow-400 border-2 md:p-10 p-5 rounded-xl bg-[#091530] hero-img">
+      <div className="container mx-auto border-yellow-400 border-2 md:p-10 p-5 rounded-xl bg-[#091530] hero-img animate__animated animate__bounceInUp">
         <p className='font-bold text-4xl py-5'>Resume</p>
         {/* top side */}
         <div className='flex flex-wrap md:py-20'>
@@ -58,7 +58,7 @@ function Resume() {
           </div>
 
           <div className='flex-1'>
-            <Experience position={'Frontend Dev.'} company={'Eganow'} date={'2023'}/>
+            <Experience position={'Frontend Dev.'} company={'Eganow'} date={'Present'}/>
             <Experience position={'Frontend Dev.'} company={'Nacasky Company'} date={'2023'}/>
             <Experience position={'Fullstack Dev.'} company={'Samak Tachnology'} date={'2021-2022'}/>
             <Experience position={'Frontend Dev'} company={'Viqx GH'} date={'2019-2020'}/>

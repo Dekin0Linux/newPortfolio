@@ -15,8 +15,8 @@ function Home() {
   return (
     <div className=' text-white'>
       
-      <div className='hero-img '>
         <Navbar/>
+      <div className='hero-img '>
         <Hero/>
       </div>
       {/* <Links/> */}

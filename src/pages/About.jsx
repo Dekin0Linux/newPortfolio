@@ -18,10 +18,10 @@ function About() {
           </div>
 
           <div className='md:flex-1 md:text-start p-5 md:p-0' data-aos="fade-left" data-aos-duration="4000">
-            <p className='text-4xl text-center md:text-start font-semibold pb-5 text-yellow-400 '>Web & Mobile App Development Experience.</p>
+            <p className='text-4xl text-center md:text-start font-semibold pb-5 text-yellow-400 bg-gradient-to-r from-purple-600  to-pink-400 inline-block text-transparent bg-clip-text'>Web & Mobile App Development Experience.</p>
 
-            <p className='text-xl md:leading-10 italic '>I am a well crafted Web & Mobile App Developer. I have good knowledge in front-end and back-end development as well as Mobile developement with React Native. My objective is simply to be the best engineer that I can be and to contribute to the technology industry all that I know and can do.</p>
-            <p className='text-xl md:leading-10 italic pb-10'>
+            <p className='text-xl md:leading-10 '>I am a well crafted Web & Mobile App Developer. I have good knowledge in front-end and back-end development as well as Mobile developement with React Native. My objective is simply to be the best engineer that I can be and to contribute to the technology industry all that I know and can do.</p>
+            <p className='text-xl md:leading-10 pb-10'>
             I am dedicated to perfecting my craft by learning from more seasoned developers, remaining humble, and continuously making strides to learn all that I can about development. I believe that my understanding of problem-solving is also a skill that I have and will continue to contribute to my overall success as developer.
             </p>
             <div>
